@@ -1,0 +1,993 @@
+.dropdown button{
+  background-color: #f8f9fA;
+  color: #9A9A9A;
+  font-size: 14px;
+  font-weight:700;
+  border: none;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+.dropdown button:hover{
+  background-color: #f8f9fA;
+  color:  #007bff;
+}
+.nav-link svg{
+  margin-bottom:4px ;
+}
+.livenews{
+  position: absolute;
+}
+.live-new{
+  position: relative;
+  left: 340%;
+  top: 6%;
+  font-size: 12px;
+  background-color: #007bff ;
+  color: #ffffff;
+  border:none;
+  border-radius: 5px;
+}
+.three-dot2{
+  display:none;
+}
+.menu-content{
+  display: none;
+}
+.three-dotss2{
+  display: none;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+  }
+.main-container{
+    background-color: #F7F7FF;
+  }
+.main-content{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.navbar-1{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+}
+.signin{
+  margin-left: 10px;
+}
+.signup{
+  margin-right: 40px;
+}
+.three-dots1{
+  display: flex;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.side-detail h1{
+  font-size: 33px;
+  font-weight:bold;
+}
+.side-detail span{
+  margin-top: 3px;
+  font-size: 23px;
+  font-weight: 400;
+}
+.sd-2{
+  font-size: 15px;
+  position: relative;
+}
+.upcoming-btn{
+  display:inline;
+  position: absolute;
+  right: 7%;
+  bottom: 62%;
+}
+.upcoming-btn button{
+  padding: 10px;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #3F52FF;
+  color: #ffffff;
+  font-weight:700;
+  border: none;
+  border-radius: 15px;
+}
+.box1 .footer1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 130px;
+}
+.box1 .footer1 .label1 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #414BEA;
+  font-weight:500;
+  color: #414BEA;
+}
+.box1 .footer1 .label2 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left:15px;
+  border-radius: 10px;
+  background-color: #F05537;
+  border: 1px solid #F05537;
+  font-weight:500;
+  color: #ffffff;
+}
+.box2 .footer1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 120px;
+}
+.box2 .footer1 .label1 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #414BEA;
+  font-weight:500;
+  color: #414BEA;
+}
+.box2 .footer1 .label2 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left:15px;
+  border-radius: 10px;
+  background-color: #F05537;
+  border: 1px solid #F05537;
+  font-weight:500;
+  color: #ffffff;
+}
+.box3 .footer1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 120px;
+}
+.box3 .footer1 .label1 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #414BEA;
+  font-weight:500;
+  color: #414BEA;
+}
+.box3 .footer1 .label2 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left:15px;
+  border-radius: 10px;
+  background-color: #F05537;
+  border: 1px solid #F05537;
+  font-weight:500;
+  color: #ffffff;
+}
+.carousel{
+  margin-top: 43px;
+}
+#ipoCarousel {
+  width: 100%; 
+  margin-left: -50px; 
+}
+.slide-container {
+  display: flex;
+  justify-content: flex-start; 
+  padding-left: 50px;
+}
+.slide-container {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 20px; 
+  padding-left: 50px;
+}
+.custom-prev-icon,
+.custom-next-icon {
+  font-size: 40px; 
+  display: flex;
+  align-items: center;
+}
+.custom-prev-icon{
+  margin-right: 190px;
+}
+.custom-next-icon{
+  margin-left: 270px;
+}
+.carousel-control-prev.custom-prev:hover .custom-prev-icon,
+.carousel-control-next.custom-next:hover .custom-next-icon {
+  background-color: #f0f0f0; 
+  color: #000; 
+}
+.carousel-indicators {
+  top: 470px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+.carousel-indicators button {
+  height: 16px; 
+  background-color: #f30606;
+  border-radius: 10px; 
+}
+.carousel-indicators button.active {
+  background-color: #007bff; 
+  width: 50px; 
+}
+.carousel-indicators button:hover {
+  background-color: #0056b3; 
+}
+.applying-ipo{
+  border: 2px solid black;
+  height:430px;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 90px;
+  margin-left: 220px;
+  border-radius:20px;
+  border:none;
+}
+.comp-logo img{
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+}
+.comp-logo{
+  display:flex;
+  justify-content: center;
+  margin-top:10px;
+}
+.comp-name-ipo{
+  font-size: 45px;
+  font-weight: bolder;
+}
+.applying-h1{
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.applying-ipo p{
+  margin-top: 30px;
+  font-size:20px;
+  font-weight: 400;
+}
+.applying-ipo button{
+  margin-top:50px;
+  padding:10px;
+  font-size: 18px;
+  padding-right:70px;
+  padding-left:70px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #3F52FF;
+}
+.ongoing-ipo{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 65px;
+}
+.ongoing-btn{
+  display:inline;
+  position: absolute;
+  right: 7%;
+}
+.ongoing-btn button{
+  padding: 10px;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #3F52FF;
+  color: #ffffff;
+  font-weight:700;
+  border: none;
+  border-radius: 15px;
+}
+.ongoing {
+  font-size: 23px;
+  font-weight:500;
+}
+.boxnew {
+  background-color:#ffffff;
+  color:#ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 450px; 
+  width:32%; 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.boxnew {
+  text-align:center;
+}
+.boxnew .sectionnew1 {
+  margin-bottom: 10px;
+  display: flex;
+}
+.sectionnew1 img{
+  width: 90px;
+  margin-left: 60px;
+}
+.boxnew .sectionnew1 .value{
+  color:#414BEA;
+  margin: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 16px;
+}
+.boxnew .sectionnew2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+.boxnew .sectionnew2 .label{
+  font-size:15px;
+  font-weight: 600;
+}
+.boxnew .sectionnew2 .value{
+  font-size:19px;
+  font-weight: 600;
+  margin-right: 13px;
+  margin-left: 20px;
+}
+.boxnew .sectionnew3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+.box1 .sectionnew3 .label{
+  font-size:15px;
+  font-weight: 500;
+  gap: 20px;
+}
+.boxnew .sectionnew3 .value{
+  margin-left: 23px;
+  margin-right: 20px;
+  font-size:18px;
+  font-weight: 600;
+}
+.boxnew .label {
+  font-weight: 500;
+  color:#5A5858;
+}
+.boxnew .value {
+  color: #000000;
+}
+.boxnew .footernew {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 160px;
+  margin-bottom: 10px;
+}
+.boxnew .footernew .label1 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #414BEA;
+  font-weight:500;
+  color: #414BEA;
+}
+.boxnew .footernew .label2 {
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left:15px;
+  border-radius: 10px;
+  background-color: #F05537;
+  border: 1px solid #F05537;
+  font-weight:500;
+  color: #ffffff;
+}
+.newlisted-ipo{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.newlisted-btn{
+  display:inline;
+  position: absolute;
+  right: 7%;
+}
+.newlisted-btn button{
+  padding: 10px;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #3F52FF;
+  color: #ffffff;
+  font-weight:700;
+  border: none;
+  border-radius: 15px;
+}
+.newlisted {
+  font-size: 23px;
+  font-weight:400;
+}
+.ipo-section{
+  margin-top: 90px;
+  display:flex;
+  flex-direction: row;
+}
+.iponews{
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 60px;
+  background-color: #ffffff;
+  border: none;
+  padding-right: 280px;
+  height: 350px;
+}
+.iponews-h{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.iponews1{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.iponews span{
+  color:#667384;
+  font-size: 14px;
+}
+.iponews2{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ipoanalysis{
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 65px;
+  background-color: #ffffff;
+  border: none;
+  padding-right: 200px;
+  height: 350px;
+}
+.analysis-h{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.analysis1{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.analysis2{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.analysis3{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ipoanalysis span{
+  color:#667384;
+  font-size: 14px;
+}
+.freqasked{
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.freqQuest{
+  font-weight: bold;
+}
+.freqAnsw{
+  font-size: 22px;
+  font-weight: 400;
+}
+.cards{
+  margin-top: 30px;
+  margin-left: 115px;
+  border: none;
+}
+.card-body{
+  padding: 30px;
+}
+.mb-0{
+  font-size: 25px;
+  font-weight:700;
+  margin-top: 10px;
+}
+.card .card-body{
+  border: none;
+  font-size: 18px;
+  font-weight:600;
+  margin-top: -20px;
+}
+.btn-primary {
+  background-color: #ffffff;
+  color: #007bff;
+  font-size: 25px;
+  border: none;
+  margin-top: 10px;
+}
+.btn-primary:hover{
+  background-color: #ffffff;
+  color: #007bff;
+}
+@media (max-width: 768px){
+  .three-dot2{
+    display:inline;
+    font-size: 22px;
+    margin-right: 10px;
+    position: absolute;
+    right: 15%;
+  }
+  .three-dotss2{
+    display:inline;
+    font-size: 22px;
+    margin-right: 10px;
+    position: absolute;
+    right: 5%;
+    border: 1px solid #999999;
+    padding-right: 3px;
+    padding-left: 3px;
+    box-shadow: 0px 0px 5px #999999;
+  }
+  .menu-content {
+    display: none;
+    position: absolute;
+    right:-130%;
+    top: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    z-index: 100;
+    min-width: 150px;
+  }
+  
+  .three-dotss2:hover .menu-content,
+  .menu-content.show {
+    display: block;
+  }
+  
+  .menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-content li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .menu-content li:hover {
+    background-color: #f5f5f5;
+  }
+  .main-content{
+    margin-left: 22px;
+    margin-top: 40px;
+  }
+  .side-detail h1{
+    font-size: 24px;
+  }
+  .side-detail p{
+    font-size: 13px;
+  }
+  .side-detail span{
+    font-size: 21px;
+  }
+  .upcoming-btn{
+    display:inline;
+    position: absolute;
+    right: 3%;
+    bottom: 69%;
+  }
+  .upcoming-btn button{
+    padding: 6px;
+    font-size: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    background-color: #3F52FF;
+    color: #ffffff;
+    font-weight:600;
+    border: none;
+    border-radius: 15px;
+  }
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel .slide-container {
+    flex-direction: row; 
+    align-items: center; 
+    gap: 15px; 
+  }
+
+  .carousel .box {
+    width: 650px; 
+    margin-left: 0; 
+    margin-bottom: 15px; 
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background: #fff; 
+    height: 550px; 
+  }
+  .carousel .box .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 12px;
+  }
+
+  .carousel .box .section1 img {
+    width: 60px; 
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .carousel .box .section1 .value {
+    font-size: 18px; 
+    font-weight: 500;
+    color:  #414BEA;
+    margin-right: 0; 
+    margin-top: 0; 
+    text-align: center; 
+  }
+
+  .carousel .box .details-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0px;
+    margin-bottom: 11px; 
+  }
+
+  .carousel .box .section2, .carousel .box .section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    margin-right: 0; 
+  }
+
+  .carousel .box .section2 .label, .carousel .box .section3 .label {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    margin-top: 0; 
+  }
+
+  .carousel .box .section2 .value, .carousel .box .section3 .value {
+    font-size: 14px; 
+    color: #000;
+    font-weight: bold;
+    margin-top: 0; 
+  }
+
+  .carousel .box .footer1 {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 13px; 
+  }
+
+  .carousel .box .footer1 .label1 {
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #EAEAEA; 
+    color: #A5A5A5; 
+    font-size: 14px; 
+    cursor: pointer;
+    margin-left: 35px;
+  }
+  .carousel .box .footer1 .label2{
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #E1EFFF; 
+    color: #000000; 
+    font-size: 14px; 
+    cursor: pointer;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0%;
+  }
+  .carousel-control-next{
+    left: 60%;
+    color: #ffffff;
+  }
+  .carousel-indicators {
+    position: absolute !important;
+    margin-top: 120px !important; 
+    justify-content: center !important; 
+    padding: 0 !important; 
+  }
+  .carousel-indicators button {
+    background-color: #ffffff !important; 
+    border: none !important; 
+    width: 10px !important; 
+    height: 10px !important; 
+    border-radius: 50% !important; 
+    margin: 0 5px !important; 
+  }
+  .carousel-indicators .active {
+    background-color: #ffffff !important; 
+  }
+  .applying-ipo{
+    width: 420px;
+    margin-left: 22px;
+    box-shadow: 0px 0px 2px #929aea; 
+  }
+  .comp-logo{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .comp-logo img{
+    width: 60px;
+    height: 40px;
+    margin-top:-8px ;
+  }
+  .comp-logo  h1{
+    font-size: 31px;
+    margin-right: 10px;
+  }
+  .applying-h1{
+    font-size: 25px;
+  }
+  .applying-ipo p{
+    margin-top: 15px;
+    font-size:20px;
+    justify-content: center;
+    font-weight: 300;
+    width: 370px;
+  }
+  .applying-ipo button{
+  margin-top:10px;
+  padding:8px;
+  font-size: 16px;
+  padding-right:60px;
+  padding-left:60px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #3F52FF;
+  }
+  .ongoing-ipo{
+    margin-left:25px;
+  }
+  .ongoing-btn{
+    display:inline;
+    position: absolute;
+    right: 5%;
+  }
+  .ongoing-btn button{
+    padding: 6px;
+    font-size: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    background-color: #3F52FF;
+    color: #ffffff;
+    font-weight:600;
+    border: none;
+    border-radius: 15px;
+  }
+  .ongoing {
+    font-size: 22px;
+    font-weight:500;
+  }
+  .ongoing-ipo p{
+    font-size: 13px;
+  }
+  .boxnew {
+    margin-left: 24px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .boxnew .footernew{
+    margin-left: 35px;
+  }
+  .boxnew .sectionnew1 .value{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .boxnew .sectionnew1 img{
+    margin-right:80px;
+  }  
+  .boxnew .sectionnew1{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxnew .detailsnew-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .boxnew .sectionnew2, .sectionnew3 {
+    display: flex;
+    flex-direction: column;
+    margin-right:50px ;
+  }
+  .boxnew .sectionnew2 .label {
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    margin-top: -15px;
+  }
+  .boxnew .sectionnew3 .label {
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    margin-top: -15px;
+  }
+  .boxnew .sectionnew2 .value {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+  .boxnew .sectionnew3 .value {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+  .newlisted-btn{
+    display:inline;
+    position: absolute;
+    right: 5%;
+  }
+  .newlisted-btn button{
+    padding: 6px;
+    font-size: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    background-color: #3F52FF;
+    color: #ffffff;
+    font-weight:600;
+    border: none;
+    border-radius: 15px;
+  }
+  .newlisted {
+    font-size: 22px;
+    font-weight:500;
+  }
+  .newlisted-ipo p{
+    font-size: 13px;
+  }
+  .ipo-section{
+    display: inline;
+  }
+  .iponews{
+    margin-top: 70px;
+    width:450px;
+    margin-left: 21px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .iponews-h{
+    margin-top: 3px;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .iponews1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    width: 450px;
+  }
+  .iponews2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    width: 450px;
+  }
+  .iponews1 .h6-1{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .iponews2 .h6-2{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .iponews2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .ipoanalysis{
+    margin-top: 40px;
+    width: 450px;
+    height: auto;
+    margin-left: 21px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .analysis-h{
+    margin-top: 3px;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .analysis1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    width: 400px;
+  }
+  .analysis2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    width: 350px;
+  }
+  .analysis3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    width: 310px;
+  }
+  .hana-1{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .hana-2{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .hana-3{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .freqQuest {
+    font-size: 21px;
+    margin-left: -38px;
+    margin-top: -50px;
+  }
+  .freqAnsw {
+    display: flex;
+    font-size: 16px;
+    margin-left: -38px;
+  }
+    .cards{
+    margin-top: -7px;
+    margin-left: -5px;
+    width: 430px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+}
